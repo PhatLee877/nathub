@@ -1,7 +1,3 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ArdyBotzz/NatHub/refs/heads/master/NatHub.lua"))()
-
---scripts
-
 loadstring(game:HttpGet("https://pastefy.app/aDXsZ6k2/raw"))()
 
 --backpack
@@ -19,4 +15,6 @@ pcall(function()
     StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.Backpack, true)
 end)
 
+--scripts
 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ArdyBotzz/NatHub/refs/heads/master/NatHub.lua"))()
