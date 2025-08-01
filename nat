@@ -1,0 +1,22 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ArdyBotzz/NatHub/refs/heads/master/NatHub.lua"))()
+
+--scripts
+
+loadstring(game:HttpGet("https://pastefy.app/aDXsZ6k2/raw"))()
+
+--backpack
+
+-- 👝 Hiện lại túi đồ Roblox (Backpack)
+local StarterGui = game:GetService("StarterGui")
+
+-- Bật lại Topbar nếu bị tắt
+pcall(function()
+    StarterGui:SetCore("TopbarEnabled", true)
+end)
+
+-- Hiện lại túi đồ
+pcall(function()
+    StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.Backpack, true)
+end)
+
+
